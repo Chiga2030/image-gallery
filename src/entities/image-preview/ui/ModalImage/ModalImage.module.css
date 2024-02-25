@@ -1,0 +1,30 @@
+.wrapper {
+  overflow: hidden;
+  height: inherit;
+  position: relative;
+}
+
+.imageWrapper {
+  height: 100%;
+}
+
+.imageWrapper::before {
+  content: '';
+  background-image: inherit;
+  background-size: inherit;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(30px);
+  transform: scale(1.1);
+}
+
+.imageModal {
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+}

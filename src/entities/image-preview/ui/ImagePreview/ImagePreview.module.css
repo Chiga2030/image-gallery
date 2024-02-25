@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.button {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, .8);
+  border: none;
+  color: rgba(255, 255, 255, .5);
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color .2s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, .9);
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 50vw;
+  cursor: pointer;
+}
