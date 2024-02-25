@@ -1,8 +1,31 @@
-# React + Vite
+# image-gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### DEMO
+[Github-pages](https://chiga2030.github.io/image-gallery/)
 
-Currently, two official plugins are available:
+### Stack
+- TypeScript
+- React + Vite
+- Feature-Sliced Design
+- Redux-toolkit
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### Описание:
+Лента - галерея с возможностью перематывания изображений с помощью кнопок переключателей.
+
+Лента должна состоит из n элементов превью картинок, по клику происходит выбор.
+
+Количество картинок задается через props компонента.
+
+Вокруг изображения - области, по клику на которые происходит выбор следующей\предыдущей картинки с перемоткой ленты.
+
+
+Выбранная картинка, при клике открывается модальное окно.
+
+Модальное окно фиксированных размеров (1190 х 700px).
+
+Картинки располагаются по центру модального окна растянуты по всей высоте окна, но с сохранением пропорций.
+
+Фон из той же самой картинки, растянутой на 1190 по ширине, по высоте согласно пропорциям и с блюром в 30px.
+
+Клик по любой области закрывает модальное окно.
